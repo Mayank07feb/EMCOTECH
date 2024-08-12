@@ -129,7 +129,7 @@
                             <i class="ri-map-pin-2-line"></i>
                             <span>
                                  Registered office: 53, Rahul Bihar Dayal Bagh, Agra 282005
-                                <br> Branch office: J1/20 Awos Vikos No 1 Keshavpuram Kalyanpur kanpur 208017</span>
+                                <br> Branch office: J1/20 Awas Vikas No 1 Keshavpuram Kalyanpur kanpur 208017</span>
                         </li>
                         <li class="flex items-center space-x-2">
                             <i class="ri-phone-fill"></i>
