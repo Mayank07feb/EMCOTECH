@@ -1,6 +1,6 @@
 @extends('components.main')
 @section('content')
-kjdfiasdfiashdiias
+
     <!-- SERVICES Section -->
     <section class="relative bg-black text-white py-12">
         <div class="absolute inset-0 opacity-45">
