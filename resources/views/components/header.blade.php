@@ -28,7 +28,7 @@
                 class="text-black font-bold hover:text-red-500 hover:underline">Services</a>
             <a href="{{ route('products') }}"
                 class="text-black font-bold hover:text-red-500 hover:underline">Products</a>
-
+            <a href="{{ route('blogs') }}" class="text-black font-bold hover:text-red-500 hover:underline">Blog</a>
             <a href="{{ route('team') }}" class="text-black font-bold hover:text-red-500 hover:underline">Team</a>
             <a href="{{ route('contact') }}" class="text-black font-bold hover:text-red-500 hover:underline">Contact</a>
             <a href="register.html">
@@ -45,7 +45,7 @@
         <a href="{{ route('about') }}" class="block px-4 py-2 text-black font-bold hover:text-red-500">About</a>
         <a href="{{ route('services') }}" class="block px-4 py-2 text-black font-bold hover:text-red-500">Services</a>
         <a href="{{ route('products') }}" class="block px-4 py-2 text-black font-bold hover:text-red-500">Product</a>
-
+        <a href="{{ route('blogs') }}" class="block px-4 py-2 text-black font-bold hover:text-red-500">Blog</a>
         <a href="{{ route('team') }}" class="block px-4 py-2 text-black font-bold hover:text-red-500">Team</a>
         <a href="{{ route('contact') }}" class="block px-4 py-2 text-black font-bold hover:text-red-500">Contact</a>
     </div>

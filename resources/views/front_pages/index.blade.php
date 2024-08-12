@@ -186,7 +186,6 @@
         </div>
     </section>
 
-    <!-- OUR EXEPERT TEAM -->
     <!-- Our Team Section -->
     <section class=" py-12">
         <div class="container mx-auto">

@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
+use App\Models\Category;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -13,7 +15,8 @@ class HomeController extends Controller
 
     public function about()
     {
-        return view('front_pages.about');
+        $aboutUsEntries = AboutUs::all();
+        return view('front_pages.about', compact('aboutUsEntries'));
     }
 
     public function services()
@@ -24,6 +27,17 @@ class HomeController extends Controller
     public function products()
     {
         return view('front_pages.product');
+    }
+
+    public function blogs(Category $category = null)
+    {
+        if($category == null){
+            $blogs = Blog::all();
+        }else{
+            $blogs = $category->blogs;
+        }
+        $categories = Category::all();
+        return view('front_pages.blog', compact('blogs', 'categories'));
     }
 
     public function team()
@@ -44,5 +58,15 @@ class HomeController extends Controller
     public function readmore()
     {
         return view('front_pages.reademore');
+    }
+
+    public function dashboard()
+    {
+        return view('dashboard.dashboard');
+    }
+
+    public function blogdetails()
+    {
+        return view('front_pages.blogdetails');
     }
 }
