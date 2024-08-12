@@ -20,7 +20,7 @@
     <section class="services bg-gray-100 py-16">
         <div class="container mx-auto px-4 md:px-8 lg:px-20">
             <h1 class="text-center text-3xl font-bold mb-8 text-red-500">Our Services</h1>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <!-- card1 -->
                 <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
                     <div>
