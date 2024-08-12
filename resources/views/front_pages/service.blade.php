@@ -120,19 +120,41 @@
             <div class="mx-8 p-4 shadow-2xl rounded-lg">
 
                 <h3 class="text-2xl font-bold text-red-500 mb-4">Get In Touch</h3>
-                <p class="text-black mb-4">Feel free to reach out to us for any inquiries or assistance. We are here to help
-                    you with your spare parts needs.</p>
-                <ul class="text-black mb-8">
-                    <li class="mb-2 text-black"><i class="ri-map-pin-2-line mr-1"></i> 123 Street, New York, USA</li>
-                    <li class="mb-2 text-black"><i class="ri-phone-fill mr-1"></i> +012 345 6789</li>
-                    <li class="mb-2 text-black"><i class="ri-mail-open-fill mr-1"></i> info@example.com</li>
-                </ul>
+                <p class="text-black mb-4">Feel free to reach out to us for any inquiries or assistance. We are here to
+                    help you
+                    with your spare parts needs.</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center space-x-2">
+                            
+                            <i class="ri-map-pin-2-line"></i>
+                            <span>
+                                 Registered office: 53, Rahul Bihar Dayal Bagh, Agra 282005
+                                <br> Branch office: J1/20 Awos Vikos No 1 Keshavpuram Kalyanpur kanpur 208017</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="ri-phone-fill"></i>
+                            <span>Phone No.: +91-9927505015
+                            </span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="ri-mail-open-fill"></i>
+                            <span>Email: sales@emcotechms.co.in
+        
+                                Info@emcotechms.co.in 
+                            </span>
+                        </li>
+                       {{-- <a href="www.emcotechms.co.in"> <li>
+                        <i class="ri-earth-line"></i>
+                        <span>Website: www.emcotech
+                        </span>
+                    </li></a> --}}
+                    </ul>
                 <h3 class="text-2xl font-bold text-red-500 mb-4">Follow Us</h3>
                 <ul class="flex space-x-4 text-gray-700">
                     <li><a href="#" class="hover:text-blue-500"><i class="ri-twitter-fill text-black"></i></a></li>
                     <li><a href="#" class="hover:text-blue-700"><i class="ri-facebook-fill text-black"></i></a>
                     </li>
-                    <li><a href="#" class="hover:text-blue-800"><i class="ri-linkedin-fill text-black "></i></a>
+                    <li><a href="#" class="hover:text-blue-900"><i class="ri-linkedin-fill text-black "></i></a>
                     </li>
                     <li><a href="#" class="hover:text-pink-500"><i class="ri-instagram-fill text-black"></i></a>
                     </li>
