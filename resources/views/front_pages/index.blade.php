@@ -60,7 +60,7 @@
                 <!-- card1 -->
                 <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
                     <div>
-                        <img src="{{ asset('asset/images/service1-min.jpg') }}" alt="" class="object-cover">
+                        <img src="{{ asset('asset\images\tinywow_service1-min_62151750.png') }}" alt="" class="object-cover">
                     </div>
                     <i class="fas fa-cog text-4xl text-blue-500 mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">MEP Consulting</h3>
@@ -71,7 +71,7 @@
                 </div>
                 <!-- card2 -->
                 <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
-                    <div><img src="{{ asset('asset/images/service2-min.jpg') }}" alt="" class="object-cover"></div>
+                    <div><img src="{{ asset('asset\images\tinywow_service2-min_62151914.png') }}" alt="" class="object-cover"></div>
                     <i class="fas fa-truck text-4xl text-green-500 mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Power Quality Ananlytics</h3>
                     <p class="text-gray-700">We deliver spare parts to over 92 countries, ensuring you receive the parts you
@@ -193,11 +193,12 @@
                         <img src="{{ asset('asset/images/team1-min.jpg') }}" alt="Photo of John Doe"
                             class="w-full rounded-md">
                     </div> --}}
-                    <h3 class="text-xl font-bold mb-2">John Doe</h3>
-                    <p class="text-gray-700 mb-2">Lead Technician</p>
-                    <p class="text-gray-600">John has over 10 years of experience in machinery maintenance and spare parts
+                    <div class="rounded-full bg-slate-400 flex justify-center mx-40 py-2"> <i class="ri-user-fill text-3xl"></i></div>
+                    <h3 class="text-xl font-bold mb-2 text-center">John Doe</h3>
+                    <p class="text-gray-700 mb-2 text-center">Lead Technician</p>
+                    <p class="text-gray-600 text-center">John has over 10 years of experience in machinery maintenance and spare parts
                         management.</p>
-                    <a href="{{ route('readmore') }}" class="text-red-500 hover:underline">Read More</a>
+                    <a href="{{ route('readmore') }}" class="text-red-500 hover:underline flex justify-center">Read More</a>
                 </div>
 
                 <!-- Team Member 2 -->
@@ -206,12 +207,13 @@
                         <img src="{{ asset('asset/images/team2-min.jpg') }}" alt="Photo of Jane Smith"
                             class="w-full rounded-md">
                     </div> --}}
-                    <h3 class="text-xl font-bold mb-2">Jane Smith</h3>
-                    <p class="text-gray-700 mb-2">Spare Parts Specialist</p>
-                    <p class="text-gray-600">Jane is an expert in sourcing and managing a wide range of spare parts for PP
+                    <div class="rounded-full bg-slate-400 flex justify-center mx-40 py-2"> <i class="ri-user-fill text-3xl"></i></div>
+                    <h3 class="text-xl font-bold mb-2 text-center">Jane Smith</h3>
+                    <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
+                    <p class="text-gray-600 text-center">Jane is an expert in sourcing and managing a wide range of spare parts for PP
                         Woven
                         Sack production.</p>
-                    <a href="{{ route('readmore') }}" class="text-red-500 hover:underline">Read More</a>
+                    <a href="{{ route('readmore') }}" class="text-red-500 hover:underline flex justify-center">Read More</a>
                 </div>
 
                 <!-- Team Member 3 -->
@@ -220,12 +222,13 @@
                         <img src="{{ asset('asset/images/team3-min.jpg') }}" alt="Photo of Mosh Jith"
                             class="w-full rounded-md">
                     </div> --}}
-                    <h3 class="text-xl font-bold mb-2">Mosh Jith</h3>
-                    <p class="text-gray-700 mb-2">Spare Parts Specialist</p>
-                    <p class="text-gray-600">Mosh is proficient in sourcing and managing a wide range of spare parts for PP
+                    <div class="rounded-full bg-slate-400 flex justify-center mx-40 py-2"> <i class="ri-user-fill text-3xl"></i></div>
+                    <h3 class="text-xl font-bold mb-2 text-center">Mosh Jith</h3>
+                    <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
+                    <p class="text-gray-600 text-center">Mosh is proficient in sourcing and managing a wide range of spare parts for PP
                         Woven
                         Sack production.</p>
-                    <a href="{{ route('readmore') }}" class="text-red-500 hover:underline">Read More</a>
+                    <a href="{{ route('readmore') }}" class="text-red-500 hover:underline flex justify-center">Read More</a>
                 </div>
 
             </div>
@@ -260,42 +263,159 @@
         </div>
     </section>
     <!-- faq -->
-    <section class="faq bg-gray-400 w-full py-16">
-        <div class="container mx-auto px-4 md:px-8 lg:px-20">
-            <h2 class="text-center text-2xl font-bold mb-8 text-red-500">Frequently Asked Questions</h2>
-            <div id="accordionExample">
-                <dl class="question mb-4 bg-gray-200 rounded-t-lg px-4 py-2">
-                    <dt class="text-xl font-bold cursor-pointer flex justify-between items-center collapsed"
-                        data-target="#collapseOne">
-                        <span>What types of spare parts do you offer?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </dt>
-                    <dd id="collapseOne" class="hidden">
-                        <div class="answer px-4 pt-2 pb-4 border border-gray-300 rounded-b-lg">
-                            <p class="text-gray-700 leading-relaxed">We offer a wide range of spare parts for various
-                                machinery used in PP Woven Sack production. This includes parts for Heddle belts, Grommet
-                                bands, Looms, Circular looms, Printing machines, Lamination machines, Sewing machines, and
-                                more.</p>
-                        </div>
-                    </dd>
-                </dl>
-                <dl class="question mb-4 bg-gray-200 rounded-t-lg px-4 py-2">
-                    <dt class="text-xl font-bold cursor-pointer flex justify-between items-center collapsed"
-                        data-target="#collapseTwo">
-                        <span>Do you ship internationally?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </dt>
-                    <dd id="collapseTwo" class="hidden">
-                        <div class="answer px-4 pt-2 pb-4 border border-gray-300 rounded-b-lg">
-                            <p class="text-gray-700 leading-relaxed">Yes, we ship internationally to over 92 countries! We
-                                can help ensure you receive the parts you need quickly and efficiently.</p>
-                        </div>
-                    </dd>
-                </dl>
-                <!-- Add more questions as needed -->
-            </div>
+    <main class="p-5 bg-gray-400">
+      <div class="flex justify-center items-start my-2">
+        <div class="w-full sm:w-10/12 md:w-max-w-6xl my-1 ">
+          <h2 class="text-4xl font-semibold text-vnet-blue mb-4 text-center text-red-500 ">Frequently Asked Questions</h2>
+          <ul class="flex flex-col">
+            <li class="bg-white my-2 shadow-lg rounded-lg" x-data="accordion(1)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>When will my order arrive?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-red-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"></path>
+                </svg>
+              </h2>
+              <div
+                x-ref="tab"
+                :style="handleToggle()"
+                class="border-l-2 border-red-600 overflow-hidden max-h-0 duration-500 transition-all"
+              >
+                <p class="p-3 text-gray-900">
+                  Shipping time is set by our delivery partners, according to the delivery method chosen by you. Additional details can be found in the order confirmation
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg rounded-lg" x-data="accordion(2)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>How do I track my order?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-red-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"></path>
+                </svg>
+              </h2>
+              <div
+                class="border-l-2 border-red-600 overflow-hidden max-h-0 duration-500 transition-all"
+                x-ref="tab"
+                :style="handleToggle()"
+              >
+                <p class="p-3 text-gray-900">
+                  Once shipped, you’ll get a confirmation email that includes a tracking number and additional information regarding tracking your order.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg rounded-lg" x-data="accordion(3)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>What’s your return policy?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-red-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"></path>
+                </svg>
+              </h2>
+              <div
+                class="border-l-2 border-red-600 overflow-hidden max-h-0 duration-500 transition-all"
+                x-ref="tab"
+                :style="handleToggle()"
+              >
+                <p class="p-3 text-gray-900">
+                  We allow the return of all items within 30 days of your original order’s date. If you’re interested in returning your items, send us an email with your order number and we’ll ship a return label.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg rounded-lg" x-data="accordion(4)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>How do I make changes to an existing order?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-red-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"></path>
+                </svg>
+              </h2>
+              <div
+                class="border-l-2 border-red-600 overflow-hidden max-h-0 duration-500 transition-all"
+                x-ref="tab"
+                :style="handleToggle()"
+              >
+                <p class="p-3 text-gray-900">
+                  Changes to an existing order can be made as long as the order is still in “processing” status. Please contact our team via email and we’ll make sure to apply the needed changes. If your order has already been shipped, we cannot apply any changes to it. If you are unhappy with your order when it arrives, please contact us for any changes you may require.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg rounded-lg" x-data="accordion(5)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>What shipping options do you have?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-red-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"></path>
+                </svg>
+              </h2>
+              <div
+                class="border-l-2 border-red-600 overflow-hidden max-h-0 duration-500 transition-all"
+                x-ref="tab"
+                :style="handleToggle()"
+              >
+                <p class="p-3 text-gray-900">
+                  For USA domestic orders we offer FedEx and USPS shipping.
+                </p>
+              </div>
+            </li>
+            <li class="bg-white my-2 shadow-lg rounded-lg" x-data="accordion(6)">
+              <h2
+                @click="handleClick()"
+                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+              >
+                <span>What payment methods do you accept?</span>
+                <svg
+                  :class="handleRotate()"
+                  class="fill-current text-red-700 h-6 w-6 transform transition-transform duration-500"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"></path>
+                </svg>
+              </h2>
+              <div
+                class="border-l-2 border-red-600 overflow-hidden max-h-0 duration-500 transition-all"
+                x-ref="tab"
+                :style="handleToggle()"
+              >
+                <p class="p-3 text-gray-900">
+                  Any method of payments acceptable by you. For example: We accept MasterCard, Visa, American Express, PayPal, JCB Discover, Gift Cards, etc.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
-    </section>
+      </div>
+    </main>
 
     <!-- contact -->
     <div class="relative order bg-gray-200">
@@ -308,11 +428,32 @@
                 <p class="text-black mb-4">Feel free to reach out to us for any inquiries or assistance. We are here to
                     help you
                     with your spare parts needs.</p>
-                <ul class="text-black mb-8">
-                    <li class="mb-2 text-black"><i class="ri-map-pin-2-line mr-1"></i> 123 Street, New York, USA</li>
-                    <li class="mb-2 text-black"><i class="ri-phone-fill mr-1"></i> +012 345 6789</li>
-                    <li class="mb-2 text-black"><i class="ri-mail-open-fill mr-1"></i> info@example.com</li>
-                </ul>
+                    <ul class="space-y-2">
+                        <li class="flex items-center space-x-2">
+                            
+                            <i class="ri-map-pin-2-line"></i>
+                            <span>
+                                 Registered office: 53, Rahul Bihar Dayal Bagh, Agra 282005
+                                <br> Branch office: J1/20 Awos Vikos No 1 Keshavpuram Kalyanpur kanpur 208017</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="ri-phone-fill"></i>
+                            <span>Phone No.: +91-9927505015
+                            </span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="ri-mail-open-fill"></i>
+                            <span>Email: sales@emcotechms.co.in
+        
+                                Info@emcotechms.co.in 
+                            </span>
+                        </li>
+                       {{-- <a href="www.emcotechms.co.in"> <li>
+                        <i class="ri-earth-line"></i>
+                        <span>Website: www.emcotech
+                        </span>
+                    </li></a> --}}
+                    </ul>
                 <h3 class="text-2xl font-bold text-red-500 mb-4">Follow Us</h3>
                 <ul class="flex space-x-4 text-gray-700">
                     <li><a href="#" class="hover:text-blue-500"><i class="ri-twitter-fill text-black"></i></a></li>
