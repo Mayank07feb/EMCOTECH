@@ -15,8 +15,7 @@ class HomeController extends Controller
 
     public function about()
     {
-        $aboutUsEntries = AboutUs::all();
-        return view('front_pages.about', compact('aboutUsEntries'));
+       return view('front_pages.about');
     }
 
     public function services()
