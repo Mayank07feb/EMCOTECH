@@ -60,7 +60,7 @@
                 <!-- card1 -->
                 <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
                     <div>
-                        <img src="{{ asset('asset\images\tinywow_service1-min_62151750.png') }}" alt="" class="object-cover">
+                        <img src="{{ asset('asset\images\service2 (1).png') }}" alt="" class="object-cover">
                     </div>
                     <i class="fas fa-cog text-4xl text-blue-500 mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">MEP Consulting</h3>
@@ -71,7 +71,7 @@
                 </div>
                 <!-- card2 -->
                 <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
-                    <div><img src="{{ asset('asset\images\tinywow_service2-min_62151914.png') }}" alt="" class="object-cover"></div>
+                    <div><img src="{{ asset('asset\images\service2 (2).png') }}" alt="" class="object-cover"></div>
                     <i class="fas fa-truck text-4xl text-green-500 mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Power Quality Ananlytics</h3>
                     <p class="text-gray-700">We deliver spare parts to over 92 countries, ensuring you receive the parts you
