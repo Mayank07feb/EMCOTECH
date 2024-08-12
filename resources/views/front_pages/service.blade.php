@@ -1,5 +1,6 @@
 @extends('components.main')
 @section('content')
+
     <!-- SERVICES Section -->
     <section class="relative bg-black text-white py-12">
         <div class="absolute inset-0 opacity-45">
@@ -33,7 +34,7 @@
                     <a href="{{ route('servicedetails') }}" class="text-red-500 hover:underline">View Details</a>
                 </div>
                 <!-- card2 -->
-                <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
+                {{-- <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
                     <div><img src="{{ asset('asset/images/service2-min.jpg') }}" alt="" class="object-cover"></div>
                     <i class="fas fa-truck text-4xl text-green-500 mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Power Quality Ananlytics</h3>
@@ -41,9 +42,9 @@
                         need
                         quickly.</p>
                     <a href="{{ route('servicedetails') }}" class="text-red-500 hover:underline">View Details</a>
-                </div>
+                </div> --}}
                 <!-- card3 -->
-                <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
+                {{-- <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
                     <div><img src="{{ asset('asset/images/service3-min.jpg') }}" alt="" class="object-cover"></div>
                     <i class="fas fa-truck text-4xl text-green-500 mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Electrical</h3>
@@ -51,7 +52,7 @@
                         you need
                         quickly.</p>
                     <a href="{{ route('servicedetails') }}" class="text-red-500 hover:underline">View Details</a>
-                </div>
+                </div> --}}
                 <!-- card4 -->
                 <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
                     <div><img src="{{ asset('asset/images/service4-min.jpg') }}" alt="" class=""></div>

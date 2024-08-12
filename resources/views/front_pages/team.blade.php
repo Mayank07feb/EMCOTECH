@@ -25,10 +25,10 @@
 
               <!-- Team Member 1 -->
               <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                  <div class="team-photo mb-4">
+                  {{-- <div class="team-photo mb-4">
                       <img src="{{ asset('asset/images/team1-min.jpg') }}" alt="Photo of John Doe"
                           class="w-full rounded-md">
-                  </div>
+                  </div> --}}
                   <h3 class="text-xl font-bold mb-2">John Doe</h3>
                   <p class="text-gray-700 mb-2">Lead Technician</p>
                   <p class="text-gray-600">John has over 10 years of experience in machinery maintenance and spare parts
@@ -38,10 +38,10 @@
 
               <!-- Team Member 2 -->
               <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                  <div class="team-photo mb-4">
+                  {{-- <div class="team-photo mb-4">
                       <img src="{{ asset('asset/images/team2-min.jpg') }}" alt="Photo of Jane Smith"
                           class="w-full rounded-md">
-                  </div>
+                  </div> --}}
                   <h3 class="text-xl font-bold mb-2">Jane Smith</h3>
                   <p class="text-gray-700 mb-2">Spare Parts Specialist</p>
                   <p class="text-gray-600">Jane is an expert in sourcing and managing a wide range of spare parts for PP
@@ -52,10 +52,10 @@
 
               <!-- Team Member 3 -->
               <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                  <div class="team-photo mb-4">
+                  {{-- <div class="team-photo mb-4">
                       <img src="{{ asset('asset/images/team3-min.jpg') }}" alt="Photo of Mosh Jith"
                           class="w-full rounded-md">
-                  </div>
+                  </div> --}}
                   <h3 class="text-xl font-bold mb-2">Mosh Jith</h3>
                   <p class="text-gray-700 mb-2">Spare Parts Specialist</p>
                   <p class="text-gray-600">Mosh is proficient in sourcing and managing a wide range of spare parts for PP

@@ -25,35 +25,29 @@
             </div>
         </div>
     </div>
-
+{{-- About us --}}
     <section class="about-us container mx-auto px-4 py-8 md:px-8 lg:px-20 lg:mt-8">
         <h1 class="text-center font-bold text-2xl mb-6 text-red-500">About us</h1>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div class="img">
+        <div class="grid grid-cols-1">
+            {{-- <div class="img">
                 <img src="{{ asset('asset/images/1711950959822.jpeg') }}" alt=".." class="h-full w-full">
-            </div>
+            </div> --}}
             <div class="text">
 
-                <p class="text-justify leading-relaxed">
-                    PERFECT, established in 1996, is a leading organization specializing in the manufacturing of exclusive
-                    spare
-                    parts for a wide range of machinery used in the production of PP Woven Sacks. Initially focusing on
-                    Heddle
-                    belts and Grommet bands, we have steadily expanded our expertise to cater to the growing needs of our
-                    valued
-                    customers. Today, we proudly manufacture over 2,500 different spare parts in various sizes and
-                    dimensions,
-                    potentially the first company in the industry to offer such a comprehensive selection under one roof.
+                <p class="flex justify-center leading-relaxed">
+                    "EMCOTECH MACHINERY AND SOLUTIONS" an organization to provide high quality Spare Parts and consumables for Woven Sacks Machinery- Tapelines, Winders, Lamination, Printing, Circular Looms, BCS, Valvomatic, Sewing and Block Bottom Valve Machine used in the manufacturing of PP woven sacks of different make like Starlinger, Windmoller & Holscher, Lohia, Remak, Pelican etc.
+
+                    In India, we are supplying our spare parts to most of the woven sack manufacturing units and also provide consultation for new manufacturing unit and expansion of unit.
+
+                    We also provide MEP Consulting Services, Power Quality Analysis and quality execution of electrical, compressed air and water line for woven sack industry.
+
                 </p>
-                <p class="text-justify leading-relaxed">
-                    For international exports, we have established a robust marketing network. We collaborate with dedicated
-                    distributors in Pakistan, Iran, Turkey, Egypt, Indonesia, Thailand, Vietnam, and Brazil. Additionally,
-                    we have
-                    established a network of agents and sales representatives in select territories, ensuring comprehensive
-                    market
-                    coverage. Our success in exporting our products hinges on the unwavering trust we have built with our
-                    overseas
-                    customers.
+                <p class="flex justify-center leading-relaxed">
+                    
+                    For exports, we have different arrangements for marketing our products. Now we are active in Tanzania, DR Congo, Kenya, Nigeria, Uganda, Ethiopia etc.
+
+                    This was made possible by assuring our overseas customers that we are capable of providing highest possible quality & performance, coupled with strict dimensional accuracy at reasonable & affordable prices as well as procuring any special parts and other consumables for their consumption.
+                    potentially the first company in the industry to offer such a comprehensive selection under one roof.
                 </p>
             </div>
         </div>
@@ -62,7 +56,7 @@
     <section class="services bg-gray-100 py-16">
         <div class="container mx-auto px-4 md:px-8 lg:px-20">
             <h1 class="text-center text-3xl font-bold mb-8 text-red-500">Our Services</h1>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <!-- card1 -->
                 <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
                     <div>
@@ -86,7 +80,7 @@
                     <a href="{{ route('servicedetails') }}" class="text-red-500 hover:underline">View Details</a>
                 </div>
                 <!-- card3 -->
-                <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
+                {{-- <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
                     <div><img src="{{ asset('asset/images/service3-min.jpg') }}" alt="" class="object-cover"></div>
                     <i class="fas fa-truck text-4xl text-green-500 mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Electrical</h3>
@@ -94,16 +88,16 @@
                         you need
                         quickly.</p>
                     <a href="{{ route('servicedetails') }}" class="text-red-500 hover:underline">View Details</a>
-                </div>
+                </div> --}}
                 <!-- card4 -->
-                <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
+                {{-- <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
                     <div><img src="{{ asset('asset/images/service4-min.jpg') }}" alt="" class=""></div>
                     <i class="fas fa-check-circle text-4xl text-orange-500 mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Quality & Precision</h3>
                     <p class="text-gray-700">We prioritize quality and accuracy in every spare part we manufacture. Strict
                         dimensional control ensures perfect fit.</p>
                     <a href="{{ route('servicedetails') }}" class="text-red-500 hover:underline">View Details</a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -111,50 +105,51 @@
     <!-- Product Section -->
     <h1 class="text-center text-3xl font-bold mt-8 text-red-500"> Our Products</h1>
     <main class="container mx-auto py-12">
-
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- product Post 1 -->
+            <!-- Product Post 1 -->
             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div><img src="{{ asset('asset/images/category1.jpeg') }}" alt="Blog post image"
                         class="w-full h-48 object-cover rounded-md mb-4">
                 </div>
-                <h3 class="text-xl font-bold mb-2">Understanding Spare Parts Management</h3>
-                <p class="text-gray-700 mb-4">Efficient spare parts management is crucial for minimizing downtime and
-                    maintaining smooth operations...</p>
-                <a href="{{ route('products') }}" class="text-red-500 hover:underline">Veiw all Products </a>
+                <h3 class="text-xl font-bold mb-2">Optimizing Inventory Control</h3>
+                <p class="text-gray-700 mb-4">Effective inventory control strategies can reduce costs and ensure that parts are available when needed...</p>
+                <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
             </div>
+    
+            <!-- Product Post 2 -->
             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div><img src="{{ asset('asset/images/category2.jpeg') }}" alt="Blog post image"
                         class="w-full h-48 object-cover rounded-md mb-4">
                 </div>
-                <h3 class="text-xl font-bold mb-2">Understanding Spare Parts Management</h3>
-                <p class="text-gray-700 mb-4">Efficient spare parts management is crucial for minimizing downtime and
-                    maintaining smooth operations...</p>
-                <a href="{{ route('products') }}" class="text-red-500 hover:underline">Veiw all Products </a>
+                <h3 class="text-xl font-bold mb-2">Best Practices for Supplier Management</h3>
+                <p class="text-gray-700 mb-4">Building strong relationships with suppliers can lead to better pricing and faster delivery times...</p>
+                <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
             </div>
+    
+            <!-- Product Post 3 -->
             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div><img src="{{ asset('asset/images/category3.jpeg') }}" alt="Blog post image"
                         class="w-full h-48 object-cover rounded-md mb-4">
                 </div>
-                <h3 class="text-xl font-bold mb-2">Understanding Spare Parts Management</h3>
-                <p class="text-gray-700 mb-4">Efficient spare parts management is crucial for minimizing downtime and
-                    maintaining smooth operations...</p>
-                <a href="{{ route('products') }}" class="text-red-500 hover:underline">Veiw all Products </a>
+                <h3 class="text-xl font-bold mb-2">Maximizing Equipment Lifespan</h3>
+                <p class="text-gray-700 mb-4">Learn how regular maintenance and quality spare parts can extend the life of your equipment...</p>
+                <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
             </div>
+    
+            <!-- Product Post 4 -->
             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div><img src="{{ asset('asset/images/category4.jpeg') }}" alt="Blog post image"
                         class="w-full h-48 object-cover rounded-md mb-4">
                 </div>
-                <h3 class="text-xl font-bold mb-2">Understanding Spare Parts Management</h3>
-                <p class="text-gray-700 mb-4">Efficient spare parts management is crucial for minimizing downtime and
-                    maintaining smooth operations...</p>
-                <a href="{{ route('products') }}" class="text-red-500 hover:underline">Veiw all Products </a>
+                <h3 class="text-xl font-bold mb-2">The Future of Spare Parts Management</h3>
+                <p class="text-gray-700 mb-4">Explore emerging trends and technologies that are shaping the future of spare parts management...</p>
+                <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
             </div>
         </div>
     </main>
-
+    
     <!--what we do? -->
-    <section class="about-us bg-gray-100 py-6">
+    {{-- <section class="about-us bg-gray-100 py-6">
         <h2 class="text-3xl font-bold mb-6 text-center text-red-500">What we do?</h2>
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 items-center">
             <div class="image order-2 md:order-1">
@@ -184,7 +179,7 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- Our Team Section -->
     <section class=" py-12">
@@ -194,10 +189,10 @@
 
                 <!-- Team Member 1 -->
                 <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <div class="team-photo mb-4">
+                    {{-- <div class="team-photo mb-4">
                         <img src="{{ asset('asset/images/team1-min.jpg') }}" alt="Photo of John Doe"
                             class="w-full rounded-md">
-                    </div>
+                    </div> --}}
                     <h3 class="text-xl font-bold mb-2">John Doe</h3>
                     <p class="text-gray-700 mb-2">Lead Technician</p>
                     <p class="text-gray-600">John has over 10 years of experience in machinery maintenance and spare parts
@@ -207,10 +202,10 @@
 
                 <!-- Team Member 2 -->
                 <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <div class="team-photo mb-4">
+                    {{-- <div class="team-photo mb-4">
                         <img src="{{ asset('asset/images/team2-min.jpg') }}" alt="Photo of Jane Smith"
                             class="w-full rounded-md">
-                    </div>
+                    </div> --}}
                     <h3 class="text-xl font-bold mb-2">Jane Smith</h3>
                     <p class="text-gray-700 mb-2">Spare Parts Specialist</p>
                     <p class="text-gray-600">Jane is an expert in sourcing and managing a wide range of spare parts for PP
@@ -221,10 +216,10 @@
 
                 <!-- Team Member 3 -->
                 <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <div class="team-photo mb-4">
+                    {{-- <div class="team-photo mb-4">
                         <img src="{{ asset('asset/images/team3-min.jpg') }}" alt="Photo of Mosh Jith"
                             class="w-full rounded-md">
-                    </div>
+                    </div> --}}
                     <h3 class="text-xl font-bold mb-2">Mosh Jith</h3>
                     <p class="text-gray-700 mb-2">Spare Parts Specialist</p>
                     <p class="text-gray-600">Mosh is proficient in sourcing and managing a wide range of spare parts for PP
