@@ -17,60 +17,139 @@
     </div>
 </section>
 <!-- OUR EXEPERT TEAM -->
-<section class=" py-12">
-    <div class="container mx-auto">
-        <h2 class="text-3xl font-bold mb-6 text-center text-red-500">Our Team</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<section class="py-12">
+  <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center text-red-500">Our Team</h2>
+      
+      <div class="relative">
+          <div id="slider" class="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide">
+              <!-- Team Member 1 -->
+              <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-start p-4">
+                  <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                      <div class="mb-6 flex justify-center">
+                          <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                              <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                  <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+                              </svg>
+                          </div>
+                      </div>
+                      <h3 class="text-xl font-bold mb-2 text-center">Er. Nishant Singh</h3>
+                      <p class="text-gray-700 mb-2 text-center">Chartered Engineer</p>
+                      <p class="text-gray-700 mb-2 text-center">B.Tech Electrical</p>
+                      <p class="text-gray-700 mb-2 text-center">BEE certified Energy Manager</p>
+                      <p class="text-gray-600 text-center mb-4">Member of Institutions of Engineers India</p>
+                      <a href="#" class="text-red-500 hover:underline block text-center">Read More</a>
+                  </div>
+              </div>
 
-            <!-- Team Member 1 -->
-            <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                {{-- <div class="team-photo mb-4">
-                    <img src="{{ asset('asset/images/team1-min.jpg') }}" alt="Photo of John Doe"
-                        class="w-full rounded-md">
-                </div> --}}
-                <div class="rounded-full bg-slate-400 flex justify-center mx-40 py-2"> <i class="ri-user-fill text-3xl"></i></div>
-                <h3 class="text-xl font-bold mb-2 text-center">John Doe</h3>
-                <p class="text-gray-700 mb-2 text-center">Lead Technician</p>
-                <p class="text-gray-600 text-center">John has over 10 years of experience in machinery maintenance and spare parts
-                    management.</p>
-                <a href="{{ route('readmore') }}" class="text-red-500 hover:underline flex justify-center">Read More</a>
-            </div>
+              <!-- Team Member 2 -->
+              <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-start p-4">
+                  <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                      <div class="mb-6 flex justify-center">
+                          <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                              <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                  <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+                              </svg>
+                          </div>
+                      </div>
+                      <h3 class="text-xl font-bold mb-2 text-center">Anu Singh</h3>
+                      <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
+                      <p class="text-gray-600 text-center mb-4">Anu is proficient in sourcing and managing a wide range of spare parts for the woven sack industry.</p>
+                      <a href="#" class="text-red-500 hover:underline block text-center">Read More</a>
+                  </div>
+              </div>
+              
+              <!-- Team Member 3 -->
+              <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-start p-4">
+                  <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                      <div class="mb-6 flex justify-center">
+                          <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                              <i class="ri-user-fill text-3xl text-white"></i>
+                          </div>
+                      </div>
+                      <h3 class="text-xl font-bold mb-2 text-center">Singa Patel</h3>
+                      <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
+                      <p class="text-gray-600 text-center mb-4">Singa is proficient in sourcing and managing a wide range of spare parts for the woven sack industry.</p>
+                      <a href="#" class="text-red-500 hover:underline block text-center">Read More</a>
+                  </div>
+              </div>
 
-            <!-- Team Member 2 -->
-            <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                {{-- <div class="team-photo mb-4">
-                    <img src="{{ asset('asset/images/team2-min.jpg') }}" alt="Photo of Jane Smith"
-                        class="w-full rounded-md">
-                </div> --}}
-                <div class="rounded-full bg-slate-400 flex justify-center mx-40 py-2"> <i class="ri-user-fill text-3xl"></i></div>
-                <h3 class="text-xl font-bold mb-2 text-center">Jane Smith</h3>
-                <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
-                <p class="text-gray-600 text-center">Jane is an expert in sourcing and managing a wide range of spare parts for PP
-                    Woven
-                    Sack production.</p>
-                <a href="{{ route('readmore') }}" class="text-red-500 hover:underline flex justify-center">Read More</a>
-            </div>
+              <!-- Team Member 4 -->
+              <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-start p-4">
+                  <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                      <div class="mb-6 flex justify-center">
+                          <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                              <i class="ri-user-fill text-3xl text-white"></i>
+                          </div>
+                      </div>
+                      <h3 class="text-xl font-bold mb-2 text-center">M S Siddiqui</h3>
+                      <p class="text-gray-700 mb-2 text-center">Electrical and Mechanical Utility Equipment Specialist</p>
+                      <p class="text-gray-600 text-center mb-4">Siddiqui is proficient in sourcing and managing a wide range of utility equipment.</p>
+                      <a href="#" class="text-red-500 hover:underline block text-center">Read More</a>
+                  </div>
+              </div>
 
-            <!-- Team Member 3 -->
-            <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                {{-- <div class="team-photo mb-4">
-                    <img src="{{ asset('asset/images/team3-min.jpg') }}" alt="Photo of Mosh Jith"
-                        class="w-full rounded-md">
-                </div> --}}
-                <div class="rounded-full bg-slate-400 flex justify-center mx-40 py-2"> <i class="ri-user-fill text-3xl"></i></div>
-                <h3 class="text-xl font-bold mb-2 text-center">Mosh Jith</h3>
-                <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
-                <p class="text-gray-600 text-center">Mosh is proficient in sourcing and managing a wide range of spare parts for PP
-                    Woven
-                    Sack production.</p>
-                <a href="{{ route('readmore') }}" class="text-red-500 hover:underline flex justify-center">Read More</a>
-            </div>
+              <!-- Team Member 5 -->
+              <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-start p-4">
+                  <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                      <div class="mb-6 flex justify-center">
+                          <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                              <i class="ri-user-fill text-3xl text-white"></i>
+                          </div>
+                      </div>
+                      <h3 class="text-xl font-bold mb-2 text-center">Aditya Goyal</h3>
+                      <p class="text-gray-700 mb-2 text-center">Accountant</p>
+                      <p class="text-gray-600 text-center mb-4">Aditya manages financial operations with precision and integrity.</p>
+                      <a href="#" class="text-red-500 hover:underline block text-center">Read More</a>
+                  </div>
+              </div>
+              <!-- Add more team members here following the same structure -->
+          </div>
 
-        </div>
-    </div>
+          <!-- Navigation Buttons -->
+          <button id="prevBtn" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 z-10">
+              <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+          </button>
+          <button id="nextBtn" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 z-10">
+              <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+          </button>
+      </div>
+  </div>
 </section>
+
+<script>
+  const slider = document.getElementById('slider');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+
+  prevBtn.addEventListener('click', () => {
+      slider.scrollBy({ left: -slider.offsetWidth, behavior: 'smooth' });
+  });
+
+  nextBtn.addEventListener('click', () => {
+      slider.scrollBy({ left: slider.offsetWidth, behavior: 'smooth' });
+  });
+
+  // Hide scrollbar across browsers
+  const style = document.createElement('style');
+  style.textContent = `
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+      .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+      }
+  `;
+  document.head.appendChild(style);
+</script>
+
 <!-- faq -->
-<main class="p-5 bg-gray-400">
+{{-- <main class="p-5 bg-gray-400">
     <div class="flex justify-center items-start my-2">
       <div class="w-full sm:w-10/12 md:w-max-w-6xl my-1 ">
         <h2 class="text-4xl font-semibold text-vnet-blue mb-4 text-center text-red-500 ">Frequently Asked Questions</h2>
@@ -222,5 +301,5 @@
         </ul>
       </div>
     </div>
-  </main>
+</main> --}}
 @endsection

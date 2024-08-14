@@ -56,61 +56,59 @@
      <!-- Product Section -->
      <h1 class="text-center text-3xl font-bold mt-8 text-red-500"> Our Products</h1>
      <main class="container mx-auto py-12">
-         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {{-- products post 0 --}}
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-            <div><img src="{{ asset('asset\images\product.jpg') }}" alt="Blog post image"
-                    class="w-full h-48 object-cover rounded-md mb-4">
-            </div>
-            <h3 class="text-xl font-bold mb-2">Tape Plant Spare Parts</h3>
-            <p class="text-gray-700 mb-4">
-                Ensure your tape plant operates smoothly with high-quality spare parts. Our inventory includes essential components to keep your machinery running efficiently and minimize downtime.
-            </p>
-            
-            <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
-        </div>  
-          
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Product Post 0 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <div class="mb-4">
+                  <img src="{{ asset('asset/images/product.jpg') }}" alt="Tape Plant Spare Parts" class="w-full h-48 object-cover rounded-md">
+              </div>
+              <h3 class="text-2xl font-semibold mb-2 text-gray-800">Tape Plant Spare Parts</h3>
+              <p class="text-gray-600 mb-4">Ensure your tape plant operates smoothly with high-quality spare parts. Our inventory includes essential components to keep your machinery running efficiently and minimize downtime.</p>
+              <a href="{{ route('products') }}" class="text-red-600 hover:text-red-800 font-medium">View all Products</a>
+          </div>
+  
           <!-- Product Post 1 -->
-             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                 <div><img src="{{ asset('asset/images/category1.jpeg') }}" alt="Blog post image"
-                         class="w-full h-48 object-cover rounded-md mb-4">
-                 </div>
-                 <h3 class="text-xl font-bold mb-2">Optimizing Inventory Control</h3>
-                 <p class="text-gray-700 mb-4">Effective inventory control strategies can reduce costs and ensure that parts are available when needed...</p>
-                 <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
-             </div>
-     
-             <!-- Product Post 2 -->
-             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                 <div><img src="{{ asset('asset/images/category2.jpeg') }}" alt="Blog post image"
-                         class="w-full h-48 object-cover rounded-md mb-4">
-                 </div>
-                 <h3 class="text-xl font-bold mb-2">Best Practices for Supplier Management</h3>
-                 <p class="text-gray-700 mb-4">Building strong relationships with suppliers can lead to better pricing and faster delivery times...</p>
-                 <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
-             </div>
-     
-             <!-- Product Post 3 -->
-             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                 <div><img src="{{ asset('asset/images/category3.jpeg') }}" alt="Blog post image"
-                         class="w-full h-48 object-cover rounded-md mb-4">
-                 </div>
-                 <h3 class="text-xl font-bold mb-2">Maximizing Equipment Lifespan</h3>
-                 <p class="text-gray-700 mb-4">Learn how regular maintenance and quality spare parts can extend the life of your equipment...</p>
-                 <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
-             </div>
-     
-             <!-- Product Post 4 -->
-             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                 <div><img src="{{ asset('asset/images/category4.jpeg') }}" alt="Blog post image"
-                         class="w-full h-48 object-cover rounded-md mb-4">
-                 </div>
-                 <h3 class="text-xl font-bold mb-2">The Future of Spare Parts Management</h3>
-                 <p class="text-gray-700 mb-4">Explore emerging trends and technologies that are shaping the future of spare parts management...</p>
-                 <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
-             </div>
-         </div>
-     </main>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <div class="mb-4">
+                  <img src="{{ asset('asset/images/category1.jpeg') }}" alt="Optimizing Inventory Control" class="w-full h-48 object-cover rounded-md">
+              </div>
+              <h3 class="text-2xl font-semibold mb-2 text-gray-800">Optimizing Inventory Control</h3>
+              <p class="text-gray-600 mb-4">Effective inventory control strategies can reduce costs and ensure that parts are available when needed...</p>
+              <a href="{{ route('products') }}" class="text-red-600 hover:text-red-800 font-medium">View all Products</a>
+          </div>
+  
+          <!-- Product Post 2 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <div class="mb-4">
+                  <img src="{{ asset('asset/images/category2.jpeg') }}" alt="Best Practices for Supplier Management" class="w-full h-48 object-cover rounded-md">
+              </div>
+              <h3 class="text-2xl font-semibold mb-2 text-gray-800">Best Practices for Supplier Management</h3>
+              <p class="text-gray-600 mb-4">Building strong relationships with suppliers can lead to better pricing and faster delivery times...</p>
+              <a href="{{ route('products') }}" class="text-red-600 hover:text-red-800 font-medium">View all Products</a>
+          </div>
+  
+          <!-- Product Post 3 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <div class="mb-4">
+                  <img src="{{ asset('asset/images/category3.jpeg') }}" alt="Maximizing Equipment Lifespan" class="w-full h-48 object-cover rounded-md">
+              </div>
+              <h3 class="text-2xl font-semibold mb-2 text-gray-800">Maximizing Equipment Lifespan</h3>
+              <p class="text-gray-600 mb-4">Learn how regular maintenance and quality spare parts can extend the life of your equipment...</p>
+              <a href="{{ route('products') }}" class="text-red-600 hover:text-red-800 font-medium">View all Products</a>
+          </div>
+  
+          <!-- Product Post 4 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <div class="mb-4">
+                  <img src="{{ asset('asset/images/category4.jpeg') }}" alt="The Future of Spare Parts Management" class="w-full h-48 object-cover rounded-md">
+              </div>
+              <h3 class="text-2xl font-semibold mb-2 text-gray-800">The Future of Spare Parts Management</h3>
+              <p class="text-gray-600 mb-4">Explore emerging trends and technologies that are shaping the future of spare parts management...</p>
+              <a href="{{ route('products') }}" class="text-red-600 hover:text-red-800 font-medium">View all Products</a>
+          </div>
+      </div>
+  </main>
+  
     <!-- SEERVICES -->
     <section class="services bg-gray-100 py-16">
         <div class="container mx-auto px-4 md:px-8 lg:px-20">
@@ -274,6 +272,7 @@
       </div>
   </section>
    --}}
+   {{-- team slider --}}
    <section class="py-12">
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8 text-center text-red-500">Our Team</h2>
