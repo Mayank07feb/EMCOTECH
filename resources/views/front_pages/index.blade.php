@@ -408,16 +408,23 @@
 
 
     <!-- Vision and Mission Section -->
-    <section class="vision-mission py-10 bg-gray-200">
-      <h2 class="text-4xl font-bold text-red-500 text-center mb-8">Vision Statement of Emcotech Machinery and Solutions:</h2>
-      <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div class="px-4 lg:pr-8">
-              <p class="text-lg text-gray-700">
-                  To pioneer innovation and excellence in the realm of woven sack spare parts, electrical and mechanical utility equipment, and MEP consultancy services. By setting unparalleled standards in quality and reliability, we aspire to empower industries with cutting-edge solutions that drive efficiency, sustainability, and growth, fostering a future where technology and engineering intersect to create impactful progress for our clients worldwide.
-              </p>
-          </div>
-          <div class="px-4 lg:pl-8">
-              <img src="{{ asset('asset/images/main.avif') }}" alt="Vision Statement Image" class="rounded-lg w-96 h-auto">
+    <section class="vision-mission py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+          <h2 class="text-3xl md:text-4xl font-bold text-red-600 text-center mb-12">
+              Vision Statement of Emcotech Machinery and Solutions
+          </h2>
+          <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-4">
+              <div class="lg:w-1/2">
+                  <p class="text-lg text-gray-700  leading-loose mb-8">
+                      To pioneer innovation and excellence in the realm of woven sack spare parts, electrical and mechanical utility equipment, and MEP consultancy services. By setting unparalleled standards in quality and reliability, we aspire to empower industries with cutting-edge solutions that drive efficiency, sustainability, and growth, fostering a future where technology and engineering intersect to create impactful progress for our clients worldwide.
+                  </p>
+              </div>
+              <div class="lg:w-1/2 flex justify-center lg:justify-end">
+                  <img src="{{ asset('asset/images/main.avif') }}" 
+                       alt="Emcotech Machinery and Solutions Vision" 
+                       class="rounded-lg shadow-xl w-full max-w-md h-auto object-cover"
+                       loading="lazy">
+              </div>
           </div>
       </div>
   </section>
