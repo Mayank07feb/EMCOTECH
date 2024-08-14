@@ -52,6 +52,65 @@
             </div>
         </div>
     </section>
+
+     <!-- Product Section -->
+     <h1 class="text-center text-3xl font-bold mt-8 text-red-500"> Our Products</h1>
+     <main class="container mx-auto py-12">
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {{-- products post 0 --}}
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <div><img src="{{ asset('asset\images\product.jpg') }}" alt="Blog post image"
+                    class="w-full h-48 object-cover rounded-md mb-4">
+            </div>
+            <h3 class="text-xl font-bold mb-2">Tape Plant Spare Parts</h3>
+            <p class="text-gray-700 mb-4">
+                Ensure your tape plant operates smoothly with high-quality spare parts. Our inventory includes essential components to keep your machinery running efficiently and minimize downtime.
+            </p>
+            
+            <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
+        </div>  
+          
+          <!-- Product Post 1 -->
+             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                 <div><img src="{{ asset('asset/images/category1.jpeg') }}" alt="Blog post image"
+                         class="w-full h-48 object-cover rounded-md mb-4">
+                 </div>
+                 <h3 class="text-xl font-bold mb-2">Optimizing Inventory Control</h3>
+                 <p class="text-gray-700 mb-4">Effective inventory control strategies can reduce costs and ensure that parts are available when needed...</p>
+                 <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
+             </div>
+     
+             <!-- Product Post 2 -->
+             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                 <div><img src="{{ asset('asset/images/category2.jpeg') }}" alt="Blog post image"
+                         class="w-full h-48 object-cover rounded-md mb-4">
+                 </div>
+                 <h3 class="text-xl font-bold mb-2">Best Practices for Supplier Management</h3>
+                 <p class="text-gray-700 mb-4">Building strong relationships with suppliers can lead to better pricing and faster delivery times...</p>
+                 <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
+             </div>
+     
+             <!-- Product Post 3 -->
+             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                 <div><img src="{{ asset('asset/images/category3.jpeg') }}" alt="Blog post image"
+                         class="w-full h-48 object-cover rounded-md mb-4">
+                 </div>
+                 <h3 class="text-xl font-bold mb-2">Maximizing Equipment Lifespan</h3>
+                 <p class="text-gray-700 mb-4">Learn how regular maintenance and quality spare parts can extend the life of your equipment...</p>
+                 <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
+             </div>
+     
+             <!-- Product Post 4 -->
+             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                 <div><img src="{{ asset('asset/images/category4.jpeg') }}" alt="Blog post image"
+                         class="w-full h-48 object-cover rounded-md mb-4">
+                 </div>
+                 <h3 class="text-xl font-bold mb-2">The Future of Spare Parts Management</h3>
+                 <p class="text-gray-700 mb-4">Explore emerging trends and technologies that are shaping the future of spare parts management...</p>
+                 <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
+             </div>
+         </div>
+     </main>
     <!-- SEERVICES -->
     <section class="services bg-gray-100 py-16">
         <div class="container mx-auto px-4 md:px-8 lg:px-20">
@@ -63,7 +122,8 @@
                         <img src="{{ asset('asset\images\service2 (1).png') }}" alt="" class="object-cover">
                     </div>
                     <i class="fas fa-cog text-4xl text-blue-500 mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">MEP Consulting</h3>
+                    <h3 class="text-xl font-bold mb-2">MEP Consultancy services 
+                    </h3>
                     <p class="text-gray-700">We offer an extensive collection of spare parts for various machinery used in
                         PP
                         Woven Sack production.</p>
@@ -73,7 +133,7 @@
                 <div class="service-card shadow-green-500 hover:shadow-green-700 p-4 bg-white rounded-md px-4 py-2">
                     <div><img src="{{ asset('asset\images\service2 (2).png') }}" alt="" class="object-cover"></div>
                     <i class="fas fa-truck text-4xl text-green-500 mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">Power Quality Ananlytics</h3>
+                    <h3 class="text-xl font-bold mb-2">Power Quality Analysis</h3>
                     <p class="text-gray-700">We deliver spare parts to over 92 countries, ensuring you receive the parts you
                         need
                         quickly.</p>
@@ -102,51 +162,7 @@
         </div>
     </section>
 
-    <!-- Product Section -->
-    <h1 class="text-center text-3xl font-bold mt-8 text-red-500"> Our Products</h1>
-    <main class="container mx-auto py-12">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- Product Post 1 -->
-            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <div><img src="{{ asset('asset/images/category1.jpeg') }}" alt="Blog post image"
-                        class="w-full h-48 object-cover rounded-md mb-4">
-                </div>
-                <h3 class="text-xl font-bold mb-2">Optimizing Inventory Control</h3>
-                <p class="text-gray-700 mb-4">Effective inventory control strategies can reduce costs and ensure that parts are available when needed...</p>
-                <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
-            </div>
-    
-            <!-- Product Post 2 -->
-            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <div><img src="{{ asset('asset/images/category2.jpeg') }}" alt="Blog post image"
-                        class="w-full h-48 object-cover rounded-md mb-4">
-                </div>
-                <h3 class="text-xl font-bold mb-2">Best Practices for Supplier Management</h3>
-                <p class="text-gray-700 mb-4">Building strong relationships with suppliers can lead to better pricing and faster delivery times...</p>
-                <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
-            </div>
-    
-            <!-- Product Post 3 -->
-            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <div><img src="{{ asset('asset/images/category3.jpeg') }}" alt="Blog post image"
-                        class="w-full h-48 object-cover rounded-md mb-4">
-                </div>
-                <h3 class="text-xl font-bold mb-2">Maximizing Equipment Lifespan</h3>
-                <p class="text-gray-700 mb-4">Learn how regular maintenance and quality spare parts can extend the life of your equipment...</p>
-                <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
-            </div>
-    
-            <!-- Product Post 4 -->
-            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <div><img src="{{ asset('asset/images/category4.jpeg') }}" alt="Blog post image"
-                        class="w-full h-48 object-cover rounded-md mb-4">
-                </div>
-                <h3 class="text-xl font-bold mb-2">The Future of Spare Parts Management</h3>
-                <p class="text-gray-700 mb-4">Explore emerging trends and technologies that are shaping the future of spare parts management...</p>
-                <a href="{{ route('products') }}" class="text-red-500 hover:underline">View all Products</a>
-            </div>
-        </div>
-    </main>
+   
     
     <!--what we do? -->
     {{-- <section class="about-us bg-gray-100 py-6">
@@ -182,88 +198,269 @@
     </section> --}}
 
     <!-- Our Team Section -->
-    <section class=" py-12">
-        <div class="container mx-auto">
-            <h2 class="text-3xl font-bold mb-6 text-center text-red-500">Our Team</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
+    {{-- <section class="py-12 bg-gray-100">
+      <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-8 text-center text-red-500">Our Team</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              
+              <!-- Team Member 1 -->
+              <div class="team-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                  <div class="team-photo mb-6 flex justify-center">
+                      <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                          <i class="ri-user-fill text-3xl text-white"></i>
+                      </div>
+                  </div>
+                  <h3 class="text-xl font-bold mb-2 text-center">Er. Nishant Singh</h3>
+                  <p class="text-gray-700 mb-2 text-center">Chartered Engineer</p>
+                  <p class="text-gray-700 mb-2 text-center">B.Tech Electrical</p>
+                  <p class="text-gray-700 mb-2 text-center">BEE certified Energy Manager</p>
+                  <p class="text-gray-600 text-center mb-4">Member of Institutions of Engineers India</p>
+                  <a href="{{ route('readmore') }}" class="text-red-500 hover:underline block text-center">Read More</a>
+              </div>
+  
+              <!-- Team Member 2 -->
+              <div class="team-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                  <div class="team-photo mb-6 flex justify-center">
+                      <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                          <i class="ri-user-fill text-3xl text-white"></i>
+                      </div>
+                  </div>
+                  <h3 class="text-xl font-bold mb-2 text-center">Anu Singh</h3>
+                  <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
+                  <p class="text-gray-600 text-center mb-4">Anu is proficient in sourcing and managing a wide range of spare parts for the woven sack industry.</p>
+                  <a href="{{ route('readmore') }}" class="text-red-500 hover:underline block text-center">Read More</a>
+              </div>
+  
+              <!-- Team Member 3 -->
+              <div class="team-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                  <div class="team-photo mb-6 flex justify-center">
+                      <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                          <i class="ri-user-fill text-3xl text-white"></i>
+                      </div>
+                  </div>
+                  <h3 class="text-xl font-bold mb-2 text-center">Singa Patel</h3>
+                  <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
+                  <p class="text-gray-600 text-center mb-4">Singa is proficient in sourcing and managing a wide range of spare parts for the woven sack industry.</p>
+                  <a href="{{ route('readmore') }}" class="text-red-500 hover:underline block text-center">Read More</a>
+              </div>
+  
+              <!-- Team Member 4 -->
+              <div class="team-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                  <div class="team-photo mb-6 flex justify-center">
+                      <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                          <i class="ri-user-fill text-3xl text-white"></i>
+                      </div>
+                  </div>
+                  <h3 class="text-xl font-bold mb-2 text-center">M S Siddiqui</h3>
+                  <p class="text-gray-700 mb-2 text-center">Electrical and Mechanical Utility Equipment Specialist</p>
+                  <p class="text-gray-600 text-center mb-4">Siddiqui is proficient in sourcing and managing a wide range of utility equipment.</p>
+                  <a href="{{ route('readmore') }}" class="text-red-500 hover:underline block text-center">Read More</a>
+              </div>
+  
+              <!-- Team Member 5 -->
+              <div class="team-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                  <div class="team-photo mb-6 flex justify-center">
+                      <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                          <i class="ri-user-fill text-3xl text-white"></i>
+                      </div>
+                  </div>
+                  <h3 class="text-xl font-bold mb-2 text-center">Aditya Goyal</h3>
+                  <p class="text-gray-700 mb-2 text-center">Accountant</p>
+                  <p class="text-gray-600 text-center mb-4">Aditya manages financial operations with precision and integrity.</p>
+                  <a href="{{ route('readmore') }}" class="text-red-500 hover:underline block text-center">Read More</a>
+              </div>
+  
+          </div>
+      </div>
+  </section>
+   --}}
+   <section class="py-12">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-red-500">Our Team</h2>
+        
+        <div class="relative">
+            <div id="slider" class="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide">
                 <!-- Team Member 1 -->
-                <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                    {{-- <div class="team-photo mb-4">
-                        <img src="{{ asset('asset/images/team1-min.jpg') }}" alt="Photo of John Doe"
-                            class="w-full rounded-md">
-                    </div> --}}
-                    <div class="rounded-full bg-slate-400 flex justify-center mx-40 py-2"> <i class="ri-user-fill text-3xl"></i></div>
-                    <h3 class="text-xl font-bold mb-2 text-center">John Doe</h3>
-                    <p class="text-gray-700 mb-2 text-center">Lead Technician</p>
-                    <p class="text-gray-600 text-center">John has over 10 years of experience in machinery maintenance and spare parts
-                        management.</p>
-                    <a href="{{ route('readmore') }}" class="text-red-500 hover:underline flex justify-center">Read More</a>
+                <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-start p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="mb-6 flex justify-center">
+                            <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                                <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-center">Er. Nishant Singh</h3>
+                        <p class="text-gray-700 mb-2 text-center">Chartered Engineer</p>
+                        <p class="text-gray-700 mb-2 text-center">B.Tech Electrical</p>
+                        <p class="text-gray-700 mb-2 text-center">BEE certified Energy Manager</p>
+                        <p class="text-gray-600 text-center mb-4">Member of Institutions of Engineers India</p>
+                        <a href="#" class="text-red-500 hover:underline block text-center">Read More</a>
+                    </div>
                 </div>
 
                 <!-- Team Member 2 -->
-                <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                    {{-- <div class="team-photo mb-4">
-                        <img src="{{ asset('asset/images/team2-min.jpg') }}" alt="Photo of Jane Smith"
-                            class="w-full rounded-md">
-                    </div> --}}
-                    <div class="rounded-full bg-slate-400 flex justify-center mx-40 py-2"> <i class="ri-user-fill text-3xl"></i></div>
-                    <h3 class="text-xl font-bold mb-2 text-center">Jane Smith</h3>
-                    <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
-                    <p class="text-gray-600 text-center">Jane is an expert in sourcing and managing a wide range of spare parts for PP
-                        Woven
-                        Sack production.</p>
-                    <a href="{{ route('readmore') }}" class="text-red-500 hover:underline flex justify-center">Read More</a>
+                <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-start p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="mb-6 flex justify-center">
+                            <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                                <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-center">Anu Singh</h3>
+                        <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
+                        <p class="text-gray-600 text-center mb-4">Anu is proficient in sourcing and managing a wide range of spare parts for the woven sack industry.</p>
+                        <a href="#" class="text-red-500 hover:underline block text-center">Read More</a>
+                    </div>
                 </div>
-
+                
                 <!-- Team Member 3 -->
-                <div class="team-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                    {{-- <div class="team-photo mb-4">
-                        <img src="{{ asset('asset/images/team3-min.jpg') }}" alt="Photo of Mosh Jith"
-                            class="w-full rounded-md">
-                    </div> --}}
-                    <div class="rounded-full bg-slate-400 flex justify-center mx-40 py-2"> <i class="ri-user-fill text-3xl"></i></div>
-                    <h3 class="text-xl font-bold mb-2 text-center">Mosh Jith</h3>
-                    <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
-                    <p class="text-gray-600 text-center">Mosh is proficient in sourcing and managing a wide range of spare parts for PP
-                        Woven
-                        Sack production.</p>
-                    <a href="{{ route('readmore') }}" class="text-red-500 hover:underline flex justify-center">Read More</a>
+                <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-start p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="mb-6 flex justify-center">
+                            <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                                <i class="ri-user-fill text-3xl text-white"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-center">Singa Patel</h3>
+                        <p class="text-gray-700 mb-2 text-center">Spare Parts Specialist</p>
+                        <p class="text-gray-600 text-center mb-4">Singa is proficient in sourcing and managing a wide range of spare parts for the woven sack industry.</p>
+                        <a href="#" class="text-red-500 hover:underline block text-center">Read More</a>
+                    </div>
                 </div>
 
+                <!-- Team Member 4 -->
+                <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-start p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="mb-6 flex justify-center">
+                            <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                                <i class="ri-user-fill text-3xl text-white"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-center">M S Siddiqui</h3>
+                        <p class="text-gray-700 mb-2 text-center">Electrical and Mechanical Utility Equipment Specialist</p>
+                        <p class="text-gray-600 text-center mb-4">Siddiqui is proficient in sourcing and managing a wide range of utility equipment.</p>
+                        <a href="#" class="text-red-500 hover:underline block text-center">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Team Member 5 -->
+                <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-start p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="mb-6 flex justify-center">
+                            <div class="rounded-full bg-slate-400 flex justify-center items-center w-24 h-24">
+                                <i class="ri-user-fill text-3xl text-white"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-center">Aditya Goyal</h3>
+                        <p class="text-gray-700 mb-2 text-center">Accountant</p>
+                        <p class="text-gray-600 text-center mb-4">Aditya manages financial operations with precision and integrity.</p>
+                        <a href="#" class="text-red-500 hover:underline block text-center">Read More</a>
+                    </div>
+                </div>
+                <!-- Add more team members here following the same structure -->
             </div>
+
+            <!-- Navigation Buttons -->
+            <button id="prevBtn" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 z-10">
+                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
+            <button id="nextBtn" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 z-10">
+                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </button>
         </div>
-    </section>
+    </div>
+</section>
+
+<script>
+    const slider = document.getElementById('slider');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    prevBtn.addEventListener('click', () => {
+        slider.scrollBy({ left: -slider.offsetWidth, behavior: 'smooth' });
+    });
+
+    nextBtn.addEventListener('click', () => {
+        slider.scrollBy({ left: slider.offsetWidth, behavior: 'smooth' });
+    });
+
+    // Hide scrollbar across browsers
+    const style = document.createElement('style');
+    style.textContent = `
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    `;
+    document.head.appendChild(style);
+</script>
+
+
 
     <!-- Vision and Mission Section -->
-    <section class="vision-mission py-6 bg-gray-200">
-        <h2 class="text-4xl font-bold text-red-500 text-center mb-8">Our Vision</h2>
-        <div class="max-w-3xl mx-auto text-center grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <p class="text-lg text-gray-700 mt-12">
-                To be the leading provider of high-quality spare parts globally, exceeding customer expectations through
-                innovation, integrity, and reliability.
-            </p>
-            <div>
-                <img src="{{ asset('asset/images/main.avif') }}" alt=".." class="rounded-lg">
-            </div>
-        </div>
-    </section>
+    <section class="vision-mission py-10 bg-gray-200">
+      <h2 class="text-4xl font-bold text-red-500 text-center mb-8">Vision Statement of Emcotech Machinery and Solutions:</h2>
+      <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          <div class="px-4 lg:pr-8">
+              <p class="text-lg text-gray-700">
+                  To pioneer innovation and excellence in the realm of woven sack spare parts, electrical and mechanical utility equipment, and MEP consultancy services. By setting unparalleled standards in quality and reliability, we aspire to empower industries with cutting-edge solutions that drive efficiency, sustainability, and growth, fostering a future where technology and engineering intersect to create impactful progress for our clients worldwide.
+              </p>
+          </div>
+          <div class="px-4 lg:pl-8">
+              <img src="{{ asset('asset/images/main.avif') }}" alt="Vision Statement Image" class="rounded-lg w-96 h-auto">
+          </div>
+      </div>
+  </section>
+  
     <!-- Mission -->
-    <section class="vision-mission py-6 mb-6 bg-gray-200">
-        <h2 class="text-4xl font-bold text-red-500 text-center mb-8">Our Mision</h2>
-        <div class="max-w-3xl mx-auto text-center grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div>
-                <img src="{{ asset('asset/images/main.avif') }}" alt=".." class="rounded-lg">
-            </div>
-            <p class="text-lg text-gray-700 mt-12">
-                To be the leading provider of high-quality spare parts globally, exceeding customer expectations through
-                innovation, integrity, and reliability.
-            </p>
-
+    <section class="vision-mission py-16 bg-gray-100">
+      <div class="max-w-6xl mx-auto px-4">
+          <h2 class="text-4xl font-bold text-red-600 text-center mb-12">Our Mission</h2>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div class="flex justify-center lg:justify-end">
+                  <img src="{{ asset('asset/images/main.avif') }}" alt="Company Mission" class="rounded-lg shadow-lg h-[650px] mt-24 w-full object-cover">
+              </div>
+              <div class="flex flex-col justify-center">
+                  <p class="text-lg text-gray-700 mb-2">
+                      At Emcotech Machinery and Solutions, our mission is to empower woven sack industries worldwide by delivering innovative, high-quality, and reliable solutions in woven sack machinery spare parts, along with comprehensive services in Electrical and Mechanical Utility Equipment and MEP consultancy. We aim to set new standards in excellence, drive efficiency and sustainability, and foster impactful progress through the intersection of technology and engineering.
+                  </p>
+                  <ul class="text-lg text-gray-700 space-y-1 mb-2">
+                      <li><strong>Innovation:</strong> We pioneer new ideas and technologies to stay ahead of the curve.</li>
+                      <li><strong>Excellence:</strong> We strive for perfection in everything we do, exceeding expectations and setting new standards.</li>
+                      <li><strong>Sustainability:</strong> We prioritize eco-friendly practices and solutions that minimize our environmental footprint.</li>
+                      <li><strong>Customer-centricity:</strong> We put our clients at the heart of everything we do, delivering tailored solutions that drive their success.</li>
+                      <li><strong>Collaboration:</strong> We work together as a team, fostering a culture of open communication, mutual respect, and collective growth.</li>
+                  </ul>
+                  <p class="text-lg text-gray-700 mb-2">
+                      We aim to:
+                  </p>
+                  <ul class="text-lg text-gray-700 space-y-1">
+                      <li>Deliver cutting-edge solutions that drive industrial efficiency, productivity, and growth.</li>
+                      <li>Build long-term relationships with our clients, founded on trust, expertise, and exceptional service.</li>
+                      <li>Attract, develop, and retain top talent, empowering our team members to reach their full potential.</li>
+                      <li>Foster a culture of innovation, creativity, and continuous improvement, staying ahead of industry trends and challenges.</li>
+                      <li>Save energy and provide quality power to each machine.</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
         </div>
     </section>
     <!-- faq -->
-    <main class="p-5 bg-gray-400">
+    {{-- <main class="p-5 bg-gray-400">
       <div class="flex justify-center items-start my-2">
         <div class="w-full sm:w-10/12 md:w-max-w-6xl my-1 ">
           <h2 class="text-4xl font-semibold text-vnet-blue mb-4 text-center text-red-500 ">Frequently Asked Questions</h2>
@@ -415,7 +612,7 @@
           </ul>
         </div>
       </div>
-    </main>
+    </main> --}}
 @include('front_pages.info-form')
    
 @endsection
