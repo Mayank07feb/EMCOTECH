@@ -5,7 +5,7 @@
         <img src="{{ asset('asset/images/front.jpg') }}" alt="" class="object-cover object-center w-screen h-full">
     </div>
     <!-- imgs container -->
-    <div>
+    {{-- <div>
         <h1 class="text-center font-bold text-2xl mb-6 text-red-500 mt-4">CERTIFICATE</h1>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-4">
             <div class="cer flex flex-col items-center text-center shadow-2xl p-4 py-8">
@@ -24,7 +24,7 @@
                 <p class="text-semibold">ISO 9001:2015 Certified by Quality Research Organisation</p>
             </div>
         </div>
-    </div>
+    </div> --}}
 {{-- About us --}}
     <section class="about-us container mx-auto px-4 py-8 md:px-8 lg:px-20 lg:mt-8">
         <h1 class="text-center font-bold text-2xl mb-6 text-red-500">About us</h1>
@@ -419,7 +419,7 @@
                   </p>
               </div>
               <div class="lg:w-1/2 flex justify-center lg:justify-end">
-                  <img src="{{ asset('asset/images/main.avif') }}" 
+                  <img src="{{ asset('asset\images\DALL·E 2024-08-30 10.47.18 - An abstract visual representation of innovation in engineering and technology. The image should feature a blend of futuristic machinery parts, electri.webp') }}" 
                        alt="Emcotech Machinery and Solutions Vision" 
                        class="rounded-lg shadow-xl w-full max-w-md h-auto object-cover"
                        loading="lazy">
@@ -434,7 +434,7 @@
           <h2 class="text-4xl font-bold text-red-600 text-center mb-12">Our Mission</h2>
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div class="flex justify-center lg:justify-end">
-                  <img src="{{ asset('asset/images/main.avif') }}" alt="Company Mission" class="rounded-lg shadow-lg h-[650px] mt-24 w-full object-cover">
+                  <img src="{{ asset('asset\images\DALL·E 2024-08-30 10.48.27 - An abstract image representing the mission and core values of a company focused on innovation, excellence, sustainability, customer-centricity, and co.webp') }}" alt="Company Mission" class="rounded-lg shadow-lg h-[650px] mt-24 w-full object-cover">
               </div>
               <div class="flex flex-col justify-center">
                   <p class="text-lg text-gray-700 mb-2">

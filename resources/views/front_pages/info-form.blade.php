@@ -35,7 +35,7 @@
                     </span>
                 </li></a> --}}
                 </ul>
-            <h3 class="text-2xl font-bold text-red-500 mb-4">Follow Us</h3>
+            {{-- <h3 class="text-2xl font-bold text-red-500 mb-4">Follow Us</h3>
             <ul class="flex space-x-4 text-gray-700">
                 <li><a href="#" class="hover:text-blue-500"><i class="ri-twitter-fill text-black"></i></a></li>
                 <li><a href="#" class="hover:text-blue-700"><i class="ri-facebook-fill text-black"></i></a>
@@ -45,7 +45,7 @@
                 <li><a href="#" class="hover:text-pink-500"><i class="ri-instagram-fill text-black"></i></a>
                 </li>
                 <li><a href="#" class="hover:text-red-500"><i class="ri-youtube-fill text-black"></i></a></li>
-            </ul>
+            </ul> --}}
         </div>
         <!-- Order Form -->
         <main class="container mx-auto py-4">
@@ -56,12 +56,14 @@
                     <div class="flex flex-col space-y-4">
                         <input type="text" id="name" name="name" placeholder="Enter your name" required
                             class="w-full bg-transparent font-bold text-white px-4 py-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
-                        <input type="email" id="email" name="email" placeholder="Enter your email" required
+                        <input type="email" id="email" name="email" placeholder="Enter your Company" required
                             class="w-full bg-transparent font-bold text-white px-4 py-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
                         <input type="tel" id="phone" name="phone" placeholder="Enter phone number"
                             required
                             class="w-full bg-transparent font-bold text-white px-4 py-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
-                        <textarea id="address" name="address" placeholder="Enter your address" required
+                            <input type="email" id="email" name="email" placeholder="Enter your Email" required
+                            class="w-full bg-transparent font-bold text-white px-4 py-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                        <textarea id="address" name="address" placeholder="Enter your Message" required
                             class="w-full bg-transparent font-bold text-white px-4 py-2 border border-gray-600 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
                     </div>
                 </div>
